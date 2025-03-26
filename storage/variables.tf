@@ -6,6 +6,17 @@ variable "cloud_provider" {
   })
 }
 
+variable "compute_role" {
+  type        = string
+  description = "Role service account in Compute cloud"
+  default     = "compute.admin"
+}
+
+variable "storage_role" {
+  type        = string
+  description = "Role for  create storage bucket in YC"
+  default     = "storage.editor"
+}
 
 variable "storage" {
   type = object({

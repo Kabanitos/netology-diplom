@@ -1,0 +1,18 @@
+# Игнорировать все файлы в .terraform
+/terraform/.terraform/*
+/storage/.terraform/*
+
+# Игнорировать файлы с расширением .tfvars
+/terraform/*.tfvars
+/storage/*.tfvars
+
+
+# Игнорировать файлы .lock.hcl
+/storage/*.lock.hcl
+/terraform/*.lock.hcl
+
+# Игнорировать файлы *.tfstate
+/storage/*.tfstate
+/storage/*.tfstate.*
+/terraform/*.tfstate
+/terraform/*.tfstate.*

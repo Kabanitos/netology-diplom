@@ -9,12 +9,12 @@ terraform {
     endpoints = {
       s3 = "https://storage.yandexcloud.net"
     }
-    bucket = var.storage.name
-    region = var.cloud_provider.zone
+    bucket = "amishanin-26032025"
+    region = "ru-central1-a"
     key    = "./terraform.tfstate"
 
-    access_key = yandex_iam_service_account_static_access_key.sa-bucket-static-key.access_key
-    secret_key = yandex_iam_service_account_static_access_key.sa-bucket-static-key.secret_key
+    access_key = ""
+    secret_key = ""
 
     skip_region_validation      = true
     skip_credentials_validation = true

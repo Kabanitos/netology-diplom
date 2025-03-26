@@ -1,5 +1,5 @@
 resource "yandex_iam_service_account" "vmmanager" {
-  name        = "vmmanager"
+  name        = var.svc-name-vmmanager
   description = "service account to manage VMs"
   folder_id   = var.cloud_provider.folder_id
 }
@@ -19,7 +19,7 @@ resource "yandex_iam_service_account_static_access_key" "sa-vmmanager-static-key
 
 
 resource "yandex_iam_service_account" "sa-bucket" {
-  name        = "sa-bucket"
+  name        = var.svc-name-storage
   description = "service account for storage yandex cloud"
   folder_id   = var.cloud_provider.folder_id
 }
