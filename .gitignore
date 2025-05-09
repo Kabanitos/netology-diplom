@@ -1,0 +1,34 @@
+# Игнорировать все файлы в .terraform
+/terraform/.terraform/*
+/storage/.terraform/*
+/monitoring/.terraform/*
+/storage/.terraform/*
+
+# Игнорировать файлы с расширением .tfvars
+/terraform/*.tfvars
+/storage/*.tfvars
+/monitoring/*.tfvars
+
+# Игнорировать файлы .lock.hcl
+/storage/*.lock.hcl
+/terraform/*.lock.hcl
+/atlantis/*.lock.hcl
+/monitoring/*.lock.hcl
+
+# Игнорировать файлы *.tfstate
+/storage/*.tfstate
+/storage/*.tfstate.*
+/terraform/*.tfstate
+/terraform/*.tfstate.*
+/atlantis/*.tfstate
+/atlantis/*.tfstate.*
+/monitoring/*.tfstate
+/monitoring/*.tfstate.*
+
+
+./.ansible
+./.vscode
+
+/terraform/cloud-init.yaml
+/ansible/inventory/sample/inventory
+

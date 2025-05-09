@@ -1,0 +1,4 @@
+name: ingress-grafana1
+host: diplom.kabanitos.ru
+svc_name: my-kube-prometheus-stack-grafana
+port: 80
