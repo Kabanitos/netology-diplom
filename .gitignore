@@ -28,7 +28,7 @@
 
 .ansible
 .DS_Store
-.vscode
+/.vscode
 
 /terraform/cloud-init.yaml
 /ansible/inventory/sample/inventory
