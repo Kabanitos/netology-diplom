@@ -25,5 +25,5 @@ resource "helm_release" "ingress" {
     chart = "./ingress"
 
     values = [file("./ingress/values.yaml")]
-  
+#
 }
