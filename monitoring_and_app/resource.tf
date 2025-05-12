@@ -27,3 +27,11 @@ resource "helm_release" "ingress" {
     values = [file("./ingress/values.yaml")]
   
 }
+
+resource "helm_release" "myapp" {
+    name =  "myapp"
+    chart = "./myapp"
+
+    values = [file("./myapp/values.yaml")]
+  
+}

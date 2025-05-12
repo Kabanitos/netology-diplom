@@ -11,10 +11,8 @@ terraform {
     }
     bucket = "amishanin-26032025"
     region = "ru-central1"
-    key    = "monitoring.tfstate"
+    key    = "app.tfstate"
 
-    access_key = ""
-    secret_key = ""
 
     skip_region_validation      = true
     skip_credentials_validation = true

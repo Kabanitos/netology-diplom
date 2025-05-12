@@ -14,6 +14,13 @@ spec:
         pathType: Prefix
         backend:
           service:
-            name: {{.Values.svc_name}}
+            name: {{.Values.grafana.svc_name}}
             port:
-              number: {{.Values.port}} 
+              number: {{.Values.grafana.port}}
+      - path: /app
+        pathType: Prefix
+        backend:
+          service:
+            name: {{.Values.app.svc_name}}
+            port:
+              number: {{.Values.app.port}} 
