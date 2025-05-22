@@ -3,17 +3,20 @@
 /storage/.terraform/*
 /monitoring_and_app/.terraform/*
 /storage/.terraform/*
+/jenkins/.terraform/*
 
 # Игнорировать файлы с расширением .tfvars
 /terraform/*.tfvars
 /storage/*.tfvars
 /monitoring_and_app/*.tfvars
+/jenkins/*.tfvars
 
 # Игнорировать файлы .lock.hcl
 /storage/*.lock.hcl
 /terraform/*.lock.hcl
 /atlantis/*.lock.hcl
 /monitoring_and_app/*.lock.hcl
+/jenkins/*.lock.hcl
 
 # Игнорировать файлы *.tfstate
 /storage/*.tfstate
@@ -24,7 +27,10 @@
 /atlantis/*.tfstate.*
 /monitoring_and_app/*.tfstate
 /monitoring_and_app/*.tfstate.*
+/jenkins/*.tfstate
+/jenkins/*.tfstate.*
 
+/jenkins/ssh-key
 
 .ansible
 .DS_Store

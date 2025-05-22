@@ -1,0 +1,10 @@
+deployment:
+  name_deploy: jenkins
+  container_name: jenkins
+  labels: my-jenkins
+  container_name_dind: docker-dind
+
+service:
+  name_svc: svc-jenkins
+  target_port: 8080
+  nodeport: 30080

@@ -11,7 +11,7 @@ terraform {
     }
     bucket = "amishanin-26032025"
     region = "ru-central1"
-    key    = "app.tfstate"
+    key    = "jenkins.tfstate"
 
     access_key = ""
 
