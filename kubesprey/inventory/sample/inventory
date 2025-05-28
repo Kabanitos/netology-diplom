@@ -14,7 +14,7 @@ ansible_user=admin
 # node1 ansible_host=95.54.0.12  # ip=10.3.0.1 etcd_member_name=etcd1
 # node2 ansible_host=95.54.0.13  # ip=10.3.0.2 etcd_member_name=etcd2
 # node3 ansible_host=95.54.0.14  # ip=10.3.0.3 etcd_member_name=etcd3
-master ansible_host=158.160.118.212 # ip=10.3.0.1 etcd_member_name=etcd1
+master ansible_host=158.160.60.63 # ip=10.3.0.1 etcd_member_name=etcd1
 
 [etcd:children]
 kube_control_plane
@@ -23,5 +23,5 @@ kube_control_plane
 # node4 ansible_host=95.54.0.15  # ip=10.3.0.4
 # node5 ansible_host=95.54.0.16  # ip=10.3.0.5
 # node6 ansible_host=95.54.0.17  # ip=10.3.0.6
-worker1 ansible_host=158.160.12.159 
-worker2 ansible_host=158.160.140.248 
+worker1 ansible_host=51.250.27.93 
+worker2 ansible_host=158.160.181.138 
