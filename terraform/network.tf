@@ -1,7 +1,7 @@
 resource "yandex_vpc_network" "diplom" {
   name = "diplom"
 }
-
+#
 resource "yandex_vpc_subnet" "subnet" {
   for_each       = var.subnet
   name           = each.value.name
