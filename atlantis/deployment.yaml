@@ -85,5 +85,5 @@ spec:
   - name: atlantis
     port: 80
     targetPort: 4141
-    nodePort: 30001
+    nodePort: 30010
     protocol: TCP
