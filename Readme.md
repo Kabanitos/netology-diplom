@@ -46,6 +46,10 @@ Dashboard Grafana доступный по 80 порту
 Так же данный манифест деплоит наше тестовое приложение в Kubernetes
 ![img10](img/img10.png)
 
+Atlantis
+
+[deployment](https://github.com/Kabanitos/netology-diplom/blob/main/atlantis/deployment.yaml) Atlnatis
+![img21](img/img21.png)
 
 ## Задание 5. Установка и настройка CI/CD.
 Для деплоя сервиса Jenkins воспользуемся манифестом terraform из директории [jenkins](https://github.com/Kabanitos/netology-diplom/tree/main/jenkins)
