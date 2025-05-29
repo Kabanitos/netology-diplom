@@ -4,5 +4,5 @@ resource "yandex_storage_bucket" "my-bucket" {
   folder_id  = var.cloud_provider.folder_id
   bucket     = var.storage.name
   max_size   = var.storage.max_size
-  #acl        = var.storage.acl
+  ##acl        = var.storage.acl
 }
